@@ -23,7 +23,7 @@ public class Main {
     System.out.println("Data: "+rectangle);
     System.out.println("Area: "+rectangle.getArea());
     System.out.println("Perimeter: "+rectangle.getPerimeter());
-
+    rectangle.Draw();
 
 
 

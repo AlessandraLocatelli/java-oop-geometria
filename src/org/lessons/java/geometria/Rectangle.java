@@ -48,6 +48,17 @@ public class Rectangle {
     {
 
 
+        for (int i = 0; i < height; i++) {
+            for (int j = 0; j < base; j++) {
+                if ( j == 0 || j == base-1 || i == 0 || i == height-1)
+                    System.out.print("o");
+                else
+                    System.out.print(" ");
+            }
+
+            System.out.println();
+
+        }
     }
 
     @Override
